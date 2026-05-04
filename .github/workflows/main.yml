@@ -10,7 +10,7 @@ on:
       agent_description:
         description: 'andhreafanzta'
         required: true
-        default: 'andhreafanzta AI Agent'
+        default: 'Verified AI identity agent for secure human verification, blockchain trust, and decentralized identity validation.'
 
 jobs:
   verify:
@@ -38,4 +38,4 @@ jobs:
 
       - name: Step 3 - Link Human to Agent
         run: |
-          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "andhreafanzta", "description": "andhreafanzta AI Agent"}'
+          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "andhreafanzta", "description": "Verified AI identity agent for secure human verification, blockchain trust, and decentralized identity validation."}'
